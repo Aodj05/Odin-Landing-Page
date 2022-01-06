@@ -117,14 +117,21 @@
 }
 
 .content-two .qoute {
-	font-size: 36px;
-	font-style: italic;
-	color: #1F2937;
 	margin: 0 auto;
 	width: 80%;
+	margin-top: 100px;
 	display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.content-two .qoute p {
+	font-size: 36px;
+	font-style: italic;
+	color: #1F2937;
+	width: 50%;
+	margin-top: 100px;
+	margin-bottom: 10px;
 }
 
 .content-two .qoute h3 {
@@ -133,6 +140,55 @@
 	color: #1F2937;
 }
 
-p {
-	padding: 100px;
+.content-three {
+	width: 60%;
+	height: 150px;
+	margin: 50px auto;
+	background-color: #3882F6;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.content-three .call {
+	margin-top: 10%;
+	margin-top: 100px;
+    margin-bottom: 100px;
+    height: 100px;
+    width: 80%;
+}
+
+.content-three .call p {
+	color: #E5E7EB;
+	font-size: 18px;
+	margin-left: 100px;
+}
+
+.content-three .call h3{
+	color: #E5E7EB;
+	font-size: 18px;
+	margin-left: 100px;
+}
+
+.content-three .callbtn {
+	padding: 10px 9px;
+	margin-right: 100px;
+	background-color: #3882F6;
+	color: #E5E7EB;
+	border-color: #E5E7EB;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.copy{
+	background-color: #1F2937;
+	color: #F9FAF8;
+	font-size: 24px;
+	height: 100px;
+	padding: 38px;
+    padding-left: 40%;
 }
